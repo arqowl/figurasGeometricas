@@ -15,7 +15,7 @@ public class Aplicacao {
             op = in.nextInt();in.nextLine();
             switch (op) {
                 case 1:
-                	System.out.println("Insira o valor do raio do círculo: ");
+                	System.out.println("Insira o valor do raio do cï¿½rculo: ");
                 	raio = in.nextDouble(); in.nextLine();
                 	Circulo circulo = new Circulo(raio);
                 	System.out.println(circulo);
@@ -46,19 +46,20 @@ public class Aplicacao {
                 case 0: 
                 		System.out.println("Bye bye");
                         break;
-                default: System.out.println("Opção inválida");
+                default: System.out.println("Opcao invalida");
             }           
         } while (op != 0);
 
 	}
 	
 	public static void menu() {
-        System.out.println("Opções");
+        System.out.println("Opcoes");
         System.out.println("1 - Circulo");
         System.out.println("2 - Triangulo");
         System.out.println("3 - Quadrado");
-        System.out.println("4 - Quadrilátero");
-        System.out.print("Digite a opção desejada: ");
+        System.out.println("4 - Quadrilatero");
+        System.out.println("0 - Sair");
+        System.out.print("Digite a opcoes desejada: ");
 	}
 
 }
